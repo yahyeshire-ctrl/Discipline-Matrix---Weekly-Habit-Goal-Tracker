@@ -273,3 +273,10 @@ export default function App() {
     </div>
   );
 }
+<button 
+  id="native-install-btn" 
+  style={{ display: 'none', position: 'fixed', bottom: '20px', right: '20px', zIndex: 9999, background: '#00ff88', color: '#000', padding: '12px 20px', border: 'none', borderRadius: '8px', fontWeight: 'bold', cursor: 'pointer', boxShadow: '0 4px 12px rgba(0,0,0,0.3)' }}
+  onClick={() => (window as any).triggerInstall()}
+>
+  Install App Natively
+</button>

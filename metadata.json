@@ -1,0 +1,6 @@
+{
+  "name": "Discipline Matrix",
+  "description": "Daily discipline, habit matrix, and trading operation dashboard with live Google Apps Script sync, prop firm compliance monitoring, and SSF focus timer.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
